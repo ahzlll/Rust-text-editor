@@ -1,0 +1,21 @@
+Rust Text Editor Demo
+=====================
+
+This file is used as the default sample when running:
+
+    cargo run -- test.txt
+
+It showcases how mixed English/中文文本在缓冲区内保持正确的字宽与对齐。
+
+Features to explore:
+- Try插入/删除字符，观察状态栏的脏标记变化。
+- 使用方向键、Home/End、PageUp/PageDown 测试 `MoveCommand`。
+- 按 Ctrl+S 保存，Ctrl+Q 退出并体验多次确认。
+
+Data table preview:
+列 | 内容
+1  | 当前行号：Line 1
+2  | Grapheme 示例：🙂、汉
+3  | 文件路径：test.txt
+
+End of sample — feel free to edit above lines to体验实时渲染。
